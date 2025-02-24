@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - MUTE
   - $$mdi:arrow-down-bold$$
   - K
   - M
@@ -142,8 +142,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
