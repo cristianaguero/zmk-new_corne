@@ -3,30 +3,30 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - G
+  - E
+  - R
+  - T
   - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
-  - R
   - S
-  - T
   - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - N
-  - E
-  - I
-  - O
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -36,7 +36,7 @@ layers:
   - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - K
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
