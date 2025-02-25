@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   SYMBOL:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
