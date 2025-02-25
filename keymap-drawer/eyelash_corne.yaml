@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  COLEMAK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -56,11 +56,11 @@ layers:
   - END
   - PG UP
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: /, s: '?'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -71,24 +71,24 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '-', s: _}
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - +
-  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - '*'
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: ',', s: <}
   - '1'
   - '2'
   - '3'
-  - {t: ',', s: <}
   - .
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -180,7 +180,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F9
