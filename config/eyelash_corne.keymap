@@ -52,7 +52,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "COLEMAK";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp G                                &kp UP                &kp J        &kp L  &kp U         &kp Y    &kp SEMICOLON  &kp ESCAPE
 &td0       &kp A  &kp R  &kp S     &kp T  &kp D                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N  &kp E         &kp I    &kp O          &kp SQT
@@ -66,10 +66,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TAB           &kp INSERT  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                                &mmv MOVE_UP                     &kp N7        &kp N8        &kp N9        &kp N0     &kp SLASH   &kp BSPC
-&kp LEFT_SHIFT    &kp DEL     &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp MINUS   &kp ASTERISK
-&kp LEFT_CONTROL  &trans      &trans    &trans        &trans     &trans         &trans                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD  &kp EQUAL
-                                        &trans        &trans     &trans                                                                    &kp INS       &kp DEL       &trans
+&kp TAB           &kp INSERT  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                                &mmv MOVE_UP                     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp N0      &kp BSPC
+&kp LEFT_SHIFT    &kp DEL     &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH   &kp ASTERISK
+&kp LEFT_CONTROL  &trans      &trans    &trans        &trans     &kp LEFT_ALT   &trans                    &mmv MOVE_DOWN                   &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
+                                        &trans        &trans     &trans                                                                    &kp INS    &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -90,10 +90,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans       &trans  &trans                                &mmv MOVE_UP                     &kp F1  &kp F2   &kp F3   &kp F4   &trans  &kp PRINTSCREEN
-&out OUT_USB     &out OUT_BLE    &trans        &trans       &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
-&bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2  &bootloader  &trans  &trans  &bt BT_CLR                    &mmv MOVE_DOWN                   &kp F9  &kp F10  &kp F11  &kp F12  &trans  &bootloader
-                                               &trans       &trans  &trans                                                                 &trans  &trans   &trans
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans       &trans  &trans                                      &mmv MOVE_UP                     &kp F1  &kp F2   &kp F3   &kp F4   &trans  &kp PRINTSCREEN
+&out OUT_USB     &out OUT_BLE    &trans        &trans       &trans  &trans                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
+&bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2  &bootloader  &trans  &kp LEFT_ALT  &bt BT_CLR                    &mmv MOVE_DOWN                   &kp F9  &kp F10  &kp F11  &kp F12  &trans  &bootloader
+                                               &trans       &trans  &trans                                                                       &trans  &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
