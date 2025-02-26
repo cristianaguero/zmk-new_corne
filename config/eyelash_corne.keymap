@@ -66,9 +66,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TAB           &kp INSERT       &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                                &mmv MOVE_UP                     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp N0      &kp BSPC
+&kp TAB           &kp INSERT       &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                                &mmv MOVE_UP                     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp N0      &kp EQUAL
 &kp LEFT_SHIFT    &kp DEL          &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH   &kp ASTERISK
-&kp LEFT_CONTROL  &kp PRINTSCREEN  &trans    &trans        &trans     &kp LEFT_ALT   &trans                    &mmv MOVE_DOWN                   &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
+&kp LEFT_CONTROL  &kp PRINTSCREEN  &trans    &trans        &trans     &kp LEFT_ALT   &trans                    &mmv MOVE_DOWN                   &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp BACKSPACE
                                              &trans        &trans     &trans                                                                    &kp INS    &kp DEL       &kp LEFT_ALT
             >;
 
